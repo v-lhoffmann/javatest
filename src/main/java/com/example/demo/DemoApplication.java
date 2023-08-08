@@ -13,7 +13,7 @@ public class DemoApplication {
 		SpringApplication.run(DemoApplication.class, args);
 	}
 
-	@RequestMapping("~/test")
+	@RequestMapping("test")
 	String sayHello() {
 		return "Hello Event!";
 	}
